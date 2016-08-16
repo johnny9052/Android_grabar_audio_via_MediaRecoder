@@ -48,6 +48,7 @@ public class MainActivity extends AppCompatActivity implements MediaPlayer.OnCom
 
 
     public void grabar(View v) {
+
         /*Instanciamos el objeto que permite grabar audio*/
         recorder = new MediaRecorder();
         /*Definimos el microfono como fuente del audio*/
